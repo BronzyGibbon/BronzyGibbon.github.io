@@ -1,0 +1,96 @@
+#my {
+    margin: 0px;
+}
+
+#my {
+    background-color: #696969;
+    text-align: center;
+    padding: 80px;
+}
+nav {
+    background-color: #333333;
+    overflow: hidden;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+/*Khó quá, học muốn nổ não*/
+nav a.c1 {
+    float: left;
+}
+nav a.c2 {
+    float: right;
+}
+.left {
+    flex: 30%;
+    padding: 10px 20px;
+}
+.right {
+    flex: 70%;    
+    padding: 10px 20px;
+    flex: 70%;
+}
+.all {
+    display: flex;
+    flex-wrap: nowrap;
+}
+#creater {
+    text-align: center;
+    background-color:#333333;
+    padding: 10px;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+#p {
+    text-decoration: none;
+    color: red;
+}
+.a {
+    text-decoration: none;
+}
+.ownerall {
+    /*    float: left;
+        width: 33%; */
+    text-align: center;
+    flex: 33%;
+}
+.img {
+    width: 90%;
+}
+#owner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.acc {
+    font-size: 150;
+    font-weight: bold;
+    padding: 10px;
+}
+.name {
+    margin: 0px 10px 20px 10px;
+}
+@media(max-width: 800px) {
+    .left {
+        flex: 100%
+    }
+    .right {
+        flex: 100%
+    }
+    .all {
+        flex-wrap: wrap;
+    }
+    .ownerall {
+        flex: 50%;
+    }
+}
